@@ -8,8 +8,6 @@ IcebreakerResponse.BatchCreate = function(data){
   })
 }
 
-const emails = [
-  ["avi@flatironschool.com", "grace@hopper.com", "alan@xparc.com"]
-]
+const emails = ["avi@flatironschool.com", "grace@hopper.com", "alan@xparc.com"]
 
 let data = IcebreakerResponse.BatchCreate(data)
