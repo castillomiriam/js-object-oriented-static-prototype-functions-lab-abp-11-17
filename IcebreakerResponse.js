@@ -4,7 +4,7 @@ function IcebreakerResponse(email){
 
 IcebreakerResponse.BatchCreate = function(data){
   return data.map(function(userData){
-    return new IcebreakerResponse(userData[0], userData[1], userData[2])
+    return new IcebreakerResponse(userData[0])
   })
 }
 
